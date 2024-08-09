@@ -1,0 +1,111 @@
+.main{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+  *,
+*:before,
+*:after {
+-webkit-box-sizing: inherit;
+box-sizing: inherit;
+}
+
+.image{
+  width: 10vw;
+}
+
+.stage{
+  display: flex;
+  background: linear-gradient(to bottom, rgb(201, 201, 201) 75%, rgb(0, 0, 0) 25%);
+  padding: 100px;
+}
+
+h1{
+font-family: sans-serif;
+font-size: 3vw;
+font: #000000;
+text-align: center;
+}
+
+header{
+  width: 200vw;
+}
+
+li{
+text-align: center;
+list-style: none;
+padding: 4px;
+}
+
+.stone{
+  width: 100%;
+}
+
+.jihannki{
+  display: flex;
+  flex-direction: column;
+}
+
+.stage{
+  padding: 0%;
+  margin: 0%;
+  justify-content: center;
+}
+
+p{
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 2vw;
+  margin: 0%;
+  padding: 0vw 0.2vw;
+  background-color: rgb(191, 204, 247);
+}
+
+.parts{
+  width: 100%;
+}
+
+.button12 {
+  background-color: #ffffff;
+  border: solid 2px 006eff;
+  color: #191970;
+  border-radius: 30px;
+  padding: 0.3vw 2vw;
+  margin: -10px;
+  margin-block: 0px;
+  text-decoration: none;
+  font-size: 2vw;
+  box-shadow: 0 5px 0 #006eff;
+  display: inline-block;
+  transition: 0.3s;
+  margin-top: none;
+}
+.button12:hover {
+  background-color: #0000ff;
+  color: #191970;
+  transform: translateY(5px);
+  box-shadow: 0 0 0 #191970;
+}
+.back{
+  width: 70vw;
+}
+
+.jihan{
+  background-color: crimson;
+  padding: 3vw;
+  height: auto;
+  margin-top: 0%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+}
+
+h2{
+  font-family: serif;
+  font-size: 4vw;
+  text-align: center;
+  background-color: #cacaca;
+}
+
+body{
+  background: linear-gradient(to bottom, rgb(187, 255, 255) 65%, rgb(108, 222, 121) 35%);
+}
